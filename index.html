@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ANVAYA connects farmers, community resources, investors and customers through one agricultural marketplace." />
+  <title>ANVAYA | Connecting Farms. Empowering Futures.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">A stronger agricultural ecosystem starts with community <span>→</span></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="ANVAYA home"><span class="brand-mark">A</span><span>ANVAYA<small>AGRICULTURAL ECOSYSTEM</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav">
+      <a href="#how-it-works">How it works</a>
+      <a href="#marketplace">Marketplace</a>
+      <a href="#community">Community</a>
+      <a href="#portals">Portals</a>
+    </nav>
+    <button class="btn btn-outline header-cta" data-open="customer">Explore marketplace</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> A connected future for agriculture</div>
+        <h1>Growing together.<br><em>Connecting the world.</em></h1>
+        <p class="hero-text">A community-powered agricultural platform bringing farmers, shared resources, supporters and customers together — from the field to the marketplace.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-open="farmer">Join as a farmer <span>↗</span></button>
+          <button class="btn btn-light" data-open="customer">Explore products <span>→</span></button>
+        </div>
+        <div class="hero-note"><span class="avatar-stack"><i>F</i><i>C</i><i>A</i></span><span>Built around farmers, communities & customers</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=85" alt="Green agricultural fields at sunrise">
+        <div class="floating-card card-top"><span class="mini-icon">✳</span><div><strong>Community first</strong><small>Shared resources, shared progress</small></div></div>
+        <div class="floating-card card-bottom"><div class="growth-icon">↗</div><div><strong>Farm to customer</strong><small>Discover produce from growers</small></div></div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div><strong>01</strong><span>Connected farmer communities</span></div>
+      <div><strong>02</strong><span>Shared agricultural resources</span></div>
+      <div><strong>03</strong><span>Direct produce discovery</span></div>
+      <div><strong>04</strong><span>Transparent project information</span></div>
+    </section>
+
+    <section class="section intro" id="how-it-works">
+      <div class="section-heading">
+        <div class="eyebrow">The ANVAYA approach</div>
+        <h2>One ecosystem.<br><em>More possibilities.</em></h2>
+      </div>
+      <p class="section-lead">Agriculture works better when the people and resources behind it are connected. ANVAYA brings the ecosystem into one accessible digital space.</p>
+    </section>
+
+    <section class="feature-grid">
+      <article class="feature-card feature-green">
+        <div class="feature-number">01 / FARMERS</div><div class="feature-icon">♧</div>
+        <h3>Grow stronger, together.</h3>
+        <p>Connect with a farmer community, discover shared machinery and agricultural resources, and list your harvest for buyers.</p>
+        <a href="#portals" data-open="farmer">Explore farmer portal ↗</a>
+      </article>
+      <article class="feature-card feature-cream">
+        <div class="feature-number">02 / SUPPORTERS</div><div class="feature-icon">◈</div>
+        <h3>Support shared infrastructure.</h3>
+        <p>Explore community projects, understand their goals and review progress information before considering participation.</p>
+        <a href="#portals" data-open="investor">Explore supporter portal ↗</a>
+      </article>
+      <article class="feature-card feature-dark">
+        <div class="feature-number">03 / CUSTOMERS</div><div class="feature-icon">⌑</div>
+        <h3>Find produce your way.</h3>
+        <p>Discover crops and food varieties from growers. Choose quantities for individual needs or bulk requirements.</p>
+        <a href="#marketplace" data-open="customer">Shop the marketplace ↗</a>
+      </article>
+    </section>
+
+    <section class="market-section section" id="marketplace">
+      <div class="market-heading">
+        <div><div class="eyebrow">Fresh from the community</div><h2>Explore the <em>marketplace.</em></h2></div>
+        <button class="btn btn-outline" data-open="customer">View all products ↗</button>
+      </div>
+      <div class="product-grid" id="featuredProducts"></div>
+    </section>
+
+    <section class="community-section" id="community">
+      <div class="community-image"><img src="https://images.unsplash.com/photo-1592982537447-6f2a6a0a5f6b?auto=format&fit=crop&w=1200&q=85" alt="Farmer working in a field"></div>
+      <div class="community-copy">
+        <div class="eyebrow eyebrow-light">Community-powered agriculture</div>
+        <h2>Resources can go<br><em>further together.</em></h2>
+        <p>ANVAYA is designed around shared access. Participating farmers can coordinate the use of equipment and develop common infrastructure with contributions from farmers and external supporters.</p>
+        <ul class="check-list"><li>Shared access to eligible farm equipment</li><li>Collective infrastructure projects</li><li>Produce listings from participating growers</li></ul>
+        <button class="btn btn-gold" data-open="farmer">Become part of a community ↗</button>
+      </div>
+    </section>
+
+    <section class="section portal-section" id="portals">
+      <div class="section-heading centered"><div class="eyebrow">One platform, four experiences</div><h2>Choose your <em>ANVAYA portal.</em></h2><p>Explore the tools designed for each part of the agricultural ecosystem.</p></div>
+      <div class="portal-grid">
+        <button class="portal-card" data-open="farmer"><span class="portal-icon">♧</span><strong>Farmer portal</strong><small>Resources, equipment & produce listings</small><span class="portal-arrow">↗</span></button>
+        <button class="portal-card" data-open="investor"><span class="portal-icon">◈</span><strong>Investor & supporter portal</strong><small>Community projects & progress updates</small><span class="portal-arrow">↗</span></button>
+        <button class="portal-card" data-open="customer"><span class="portal-icon">⌑</span><strong>Customer portal</strong><small>Discover and request individual or bulk produce</small><span class="portal-arrow">↗</span></button>
+        <button class="portal-card" data-open="admin"><span class="portal-icon">▦</span><strong>Admin portal</strong><small>Prototype management and activity overview</small><span class="portal-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div><div class="eyebrow eyebrow-light">Let's build a connected food future</div><h2>Better connections.<br><em>Stronger agriculture.</em></h2></div>
+      <button class="btn btn-gold" data-open="farmer">Get started with ANVAYA ↗</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand brand-footer" href="#"><span class="brand-mark">A</span><span>ANVAYA<small>AGRICULTURAL ECOSYSTEM</small></span></a>
+    <p>Connecting Farms. Empowering Futures.</p>
+    <div class="footer-links"><a href="#how-it-works">About</a><a href="#marketplace">Marketplace</a><a href="#portals">Portals</a><a href="mailto:hello@anvaya.example">Contact</a></div>
+    <small class="copyright">© <span id="year"></span> ANVAYA. Prototype concept. All rights reserved.</small>
+  </footer>
+
+  <div class="modal-backdrop" id="portalModal" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+      <div class="modal-kicker" id="modalKicker">ANVAYA PORTAL</div>
+      <h2 id="modalTitle">Welcome</h2>
+      <p id="modalDescription" class="modal-description"></p>
+      <div id="modalContent"></div>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
